@@ -1,0 +1,27 @@
+{
+ "name": "logiclord-md",
+ "version": "1.0.0",
+ "description": "LogicLord MD — Multi-session WhatsApp bot (Node.js + Baileys)",
+ "main": "src/index.js",
+ "scripts": {
+ "start": "node src/index.js",
+ "dev": "nodemon src/index.js"
+ },
+ "engines": {
+ "node": ">=18"
+ },
+ "author": "",
+ "license": "MIT",
+ "dependencies": {
+ "@adiwajshing/baileys": "^4.0.0",
+ "axios": "^1.5.0",
+ "dotenv": "^16.3.1",
+ "express": "^4.18.2",
+ "mongoose": "^7.6.0",
+ "qrcode": "^1.5.1",
+ "socket.io": "^4.8.1"
+ },
+ "devDependencies": {
+ "nodemon": "^3.0.1"
+ }
+}
